@@ -18,7 +18,7 @@ from tensorflow.keras.preprocessing import image
 import keras
 from tensorflow.keras.preprocessing.image import load_img
 from tensorflow.keras.preprocessing.image import img_to_array
-from tensorflow.keras.applications.imagenet_utils import decode_predictions
+#from tensorflow.keras.applications.imagenet_utils import decode_predictions
 
 """
 def resize_image_tom(image):
@@ -224,4 +224,4 @@ def convert_results(string):
 
 
 if __name__=="__main__":
-  app.run("0.0.0.0",80, debug = False)
+  app.run("34.121.118.165",80, debug = False)
