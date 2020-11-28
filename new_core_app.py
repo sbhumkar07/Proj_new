@@ -224,4 +224,4 @@ def convert_results(string):
 
 
 if __name__=="__main__":
-  app.run("34.121.118.165",80, debug = False)
+  app.run("0.0.0.0",80, debug = False)
